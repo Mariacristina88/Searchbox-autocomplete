@@ -37,7 +37,7 @@ input.onkeyup = function(e) {
 
   }
 
-  if (input_val.length > 0 && input_val.length < 20) {
+  if (input_val.length > 0) {
     source_to_show = [];
 
     autocomplete_results.innerHTML = '';
