@@ -1,0 +1,126 @@
+#searchbox {
+  width: 400px;
+  min-height: 50px;
+  background-color: #F6F7F9;
+  border: solid 2px #929DB5;
+  color: #253C6C;
+  font-style: oblique;
+  font-family: "Georgia, Times";
+  
+}
+#searchbox button {
+  float: right;
+   
+}
+
+#search-box {
+  width: 90%;
+  height: 40px;
+  background-color: transparent;
+  color: #253C6C;
+  font-style: oblique;
+  padding: 0 15px;
+  font-family: "Georgia, Times";
+  border: none;
+  float: left;
+  font-size: 1em;
+}
+
+#search-box:focus {
+  border: none;
+  outline: none; 
+}
+
+#results {
+  display: none;
+  width: 100%;
+  margin-top: -2px;
+  color: #263d6d;
+  max-height: 190px;
+  overflow-x: hidden;
+  overflow: -moz-scrollbars-vertical; }
+
+#results ul {
+  padding: 0; 
+  background-color:transparent;
+}
+
+#results ul li {
+  width: 100%;
+  padding: 10px 15px;
+  list-style: none;
+  font-size: 1.1em;
+  font-style: normal;
+  font-family: "Open Sans";
+  text-transform: capitalize !important; 
+}
+
+#results ul li h4 {
+  text-transform: capitalize;
+  color: #f95c58; 
+}
+
+#results ul li p {
+  text-transform: capitalize;
+  font-weight: 300; 
+}
+
+#results ul li a {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize !important; 
+}
+
+#results ul li:hover {
+  background-color: white; 
+  cursor: pointer;
+}
+
+#results::-webkit-scrollbar {
+  width: 0.8em;
+  background-color: #D3D8E1; 
+}
+
+#results::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3); 
+}
+
+#results::-webkit-scrollbar-thumb {
+  background-color: #263d6d;
+  outline: 1px solid transparent; 
+}
+
+#autocomplete-results {
+  margin-top: 12px;
+  background-color: white; 
+}
+
+#autocomplete-results li {
+  width: 100%;
+  padding: 10px 15px;
+  list-style: none;
+  font-size: 1.1em;
+  font-style: normal;
+  font-family: "Open Sans";
+  text-transform: capitalize !important; 
+}
+
+#autocomplete-results li h4 {
+  text-transform: capitalize;
+  color: #f95c58; 
+}
+
+#autocomplete-results li p {
+  text-transform: capitalize;
+  font-weight: 300; 
+}
+
+#autocomplete-results li a {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize !important; 
+}
+
+#autocomplete-results li a:hover {
+  background-color: white; 
+}
