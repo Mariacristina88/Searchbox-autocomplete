@@ -30,7 +30,6 @@ input.onkeyup = function(e) {
   input_val = input.value.toLowerCase();
   input.style.fontStyle = 'normal';
   input_val.slice();
-  console.log('d');
 
   if (input.value === '') {
     input.style.fontStyle = 'oblique';
